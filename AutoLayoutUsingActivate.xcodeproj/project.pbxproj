@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D53C901C2435E06000CE27A7 /* SubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53C901A2435E06000CE27A7 /* SubViewController.swift */; };
+		D53C901D2435E06000CE27A7 /* SubViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D53C901B2435E06000CE27A7 /* SubViewController.xib */; };
 		D54228312435DD8900F77CE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54228302435DD8900F77CE1 /* AppDelegate.swift */; };
 		D54228332435DD8900F77CE1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54228322435DD8900F77CE1 /* SceneDelegate.swift */; };
 		D54228352435DD8900F77CE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54228342435DD8900F77CE1 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D53C901A2435E06000CE27A7 /* SubViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SubViewController.swift; path = ../SubViewController.swift; sourceTree = "<group>"; };
+		D53C901B2435E06000CE27A7 /* SubViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = SubViewController.xib; path = ../SubViewController.xib; sourceTree = "<group>"; };
 		D542282D2435DD8900F77CE1 /* AutoLayoutUsingActivate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoLayoutUsingActivate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D54228302435DD8900F77CE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D54228322435DD8900F77CE1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -57,12 +61,14 @@
 			isa = PBXGroup;
 			children = (
 				D54228302435DD8900F77CE1 /* AppDelegate.swift */,
-				D54228322435DD8900F77CE1 /* SceneDelegate.swift */,
-				D54228342435DD8900F77CE1 /* ViewController.swift */,
-				D54228362435DD8900F77CE1 /* Main.storyboard */,
 				D54228392435DD9300F77CE1 /* Assets.xcassets */,
-				D542283B2435DD9300F77CE1 /* LaunchScreen.storyboard */,
 				D542283E2435DD9300F77CE1 /* Info.plist */,
+				D542283B2435DD9300F77CE1 /* LaunchScreen.storyboard */,
+				D54228362435DD8900F77CE1 /* Main.storyboard */,
+				D54228322435DD8900F77CE1 /* SceneDelegate.swift */,
+				D53C901A2435E06000CE27A7 /* SubViewController.swift */,
+				D53C901B2435E06000CE27A7 /* SubViewController.xib */,
+				D54228342435DD8900F77CE1 /* ViewController.swift */,
 			);
 			path = AutoLayoutUsingActivate;
 			sourceTree = "<group>";
@@ -128,6 +134,7 @@
 				D542283D2435DD9300F77CE1 /* LaunchScreen.storyboard in Resources */,
 				D542283A2435DD9300F77CE1 /* Assets.xcassets in Resources */,
 				D54228382435DD8900F77CE1 /* Main.storyboard in Resources */,
+				D53C901D2435E06000CE27A7 /* SubViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +148,7 @@
 				D54228352435DD8900F77CE1 /* ViewController.swift in Sources */,
 				D54228312435DD8900F77CE1 /* AppDelegate.swift in Sources */,
 				D54228332435DD8900F77CE1 /* SceneDelegate.swift in Sources */,
+				D53C901C2435E06000CE27A7 /* SubViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
