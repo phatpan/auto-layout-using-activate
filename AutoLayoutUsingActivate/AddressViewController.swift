@@ -1,6 +1,6 @@
 import UIKit
 
-class SubViewController: UIViewController {
+class AddressViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
